@@ -1,0 +1,14 @@
+.year > p {
+    margin-top: 25px;
+    font-size: 34px;
+}
+
+.issues {
+    padding: 0 2%;
+}
+
+.issues > a > img {
+    width: 270px;
+    height: 400px;
+    margin-right: 4%;
+}

@@ -1,0 +1,25 @@
+.home {
+    background-color: #fafafa;
+}
+
+.home__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.bottomLink {
+    display: flex;
+    margin-top: 14px;
+    text-decoration: none;
+    color: black;
+    border: solid 1px lightgray;
+    height: 36px;
+    width: 94px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}

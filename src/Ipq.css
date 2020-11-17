@@ -1,0 +1,61 @@
+.ipq__body {
+    padding: 15px 18%;
+}
+
+.ipq__body > h1 {
+    display: flex;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form > form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+}
+
+.form > form > label {
+    padding-bottom: 10px;
+}
+
+.form > form >input {
+    height: 35px;
+}
+
+.form > form > input[type="text"] {
+    width: 480px;
+    border: solid 1px;
+    border-color: lightgray;
+    border-radius: 3px;
+    background-color: white;
+    padding-left: 10px;
+    color: black;
+}
+
+.form > form > input[type="text"]:focus {
+    outline: none;
+    border-color: #00e5ff;
+}
+
+.form > form > input[type="submit"] {
+    background-color: transparent;
+    margin-top: 30px;
+    width: 120px;
+    align-self: center;
+    border: solid 1px;
+    border-radius: 3px;
+    border-color: lightgray;
+    font-size: 12px;
+    font-weight: 600;
+    color: grey;
+}
+
+.form > form > input[type="submit"]:hover {
+    cursor: pointer;
+    border-color: grey;
+}

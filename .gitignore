@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# PDFs and images
+/public/src/lire
+/public/src/couverture
+
+# firebase config
+/src/firebase.js

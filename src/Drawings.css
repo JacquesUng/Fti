@@ -1,0 +1,8 @@
+.drawings__body {
+    padding: 15px 18%;
+}
+
+.drawings__body > h1 {
+    font-size: 34px;
+    font-weight: 100;
+}
